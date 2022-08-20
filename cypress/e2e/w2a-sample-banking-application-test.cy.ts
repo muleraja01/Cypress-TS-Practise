@@ -72,9 +72,9 @@ describe('cypress test in Sample Banking application on w2a',()=>{
         })
         cy.get('@accountNumber').then($accounts=>{
            let accountlist=$accounts.toString().split(' ')
-           cy.log("First account Number :: "+ accountlist[0])
-           cy.log("Second account Number :: "+ accountlist[1])
-           cy.log("Third account Number :: "+ accountlist[2])
+           cy.log("First Account Number :: "+ accountlist[0])
+           cy.log("Second Account Number :: "+ accountlist[1])
+           cy.log("Third Account Number :: "+ accountlist[2])
         })    
 
 
